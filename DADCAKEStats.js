@@ -110,7 +110,7 @@ async function claimCAKEReward() {
         walletTokenBalance = walletTokenBalance / (10 ** 18);
         
         console.log('Wallet Balance', walletTokenBalance.toString());
-        document.querySelector("#DADCAKEBalance").textContent = walletTokenBalance.toString() + ' $DCAKE';
+        document.querySelector("#DADCAKEBalance").textContent = walletTokenBalance.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
         // Total Claimed by users
         var totalDivs = await contract.getTotalDividendsDistributed();
