@@ -1,5 +1,12 @@
 "use strict";
 
+//
+// Copy: This code has been created by DadCake Token (dadcake.app)
+//
+// You are free to use it for your project, please don't remove this this copy text. 
+// Help us to improve it if you find any bug and let us know if it helped you. We'd love to hear about it!
+//
+
 // Unpkg imports
 let Web3Modal = window.Web3Modal.default;
 let WalletConnectProvider = window.WalletConnectProvider.default;
